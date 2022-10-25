@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+#game {
+  background: #6db5f0 url("../img/tinyBg.jpg") center / cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-canvas {
+  display: block;
+  border-radius: 5px;
+}
+
+.game-header {
+  padding-top: 1vmin;
+  padding-bottom: 5vmin;
+
+  display: flex;
+  justify-content: space-between;
+}
+.game-score {
+  padding: 10px 15px;
+  min-width: 160px;
+  height: 50px;
+  background: #f7f7f7;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score-count {
+  font-size: 3vmin;
+  color: #142237;
+  font-weight: bold;
+}
+
+.canvas-wrapper {
+  background-color: #c6e3fd;
+  border-radius: 5px;
+  border: 10px solid #8fc9fc;
+  box-shadow: 0px 0px 40px 10px #c6e4fe;
+
+  /* Код сгенерированный "URL-encoder for SVG" */
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='4' fill='%23F7F7F7'/%3E%3C/svg%3E%0A");
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}

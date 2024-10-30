@@ -1,5 +1,7 @@
 # Snake Game
 
+![image](https://github.com/user-attachments/assets/bb0c502c-4697-4bc5-b40b-aab0bf342f3b)
+
 ## Описание проекта
 - Классическая игра "Змейка"
 - Реализована с использованием JavaScript и HTML5 Canvas, без сторонних библиотек
